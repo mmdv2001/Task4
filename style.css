@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.entry{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGSnbF0FlAU-uOEoS0ijTLZozAw_sPduwMrodkR9J_FHL87ANYvhQCLUDbDJe6WmlogN8&usqp=CAU");
+    background-size: cover;
+    height: 120vh;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 15px;
+}
+.header{
+    display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+}
+.header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  
+}
+.header ul li{
+    margin: 0 10px;
+}
+.header{
+    padding:  20px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-size: 38px;
+    width: 100%;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.demo{
+    background-color:rgb(230, 220, 213) ;
+    width: 34%;
+    text-align: center;
+    /* min-height: 80vh; */
+    padding: 10px 0;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin: 20px 20px;
+    color:rgb(145, 116, 97) ;
+    font-family: 'Rajdhani', sans-serif;
+}
+.demo img{
+    border-radius: 50%;
+    padding: 10px 0;
+}
+
+.demo h3{
+    margin-top: 20px;
+}
+.demo p{
+    text-align: center;
+    line-height: 25px;
+    margin: 10px 0;
+}
+.text-demo{
+    padding-top: 10px;
+    text-align: center;
+    max-height: 130px;
+    margin: 10px 15px 55px 15px;
+
+}
+.body{
+    display: flex;
+}
+.good-bad{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 20px 0;
+}
+.text-demo-2{
+    margin-top: 10px;
+    max-height: 140px;
+    overflow-y: scroll;
+    text-align: center;
+    padding: 10px;
+}
+.text-demo-1{
+    /* margin-top: 10px; */
+    max-height: 130px;
+    margin: 30px 0 55px 0;
+    text-align: center;
+}
+
+
+.footer{
+    background-color:rgb(207, 186, 174) ;
+    padding:  3px 10px ;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 10px;
+}
+.chat{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 100px ;
+}
+.edge{
+    width: 100%;
+    max-height: 50vh;
+    background-color: rgb(232, 236, 253);
+    border-radius:20px;
+    margin: 0 10px;
+    padding: 25px;
+}
+
+
+#p{
+    background-color: #7991e7;  
+     width: 10vh; 
+    color: white;
+     text-align: center;
+    padding: 14px 0;
+    border-radius:25px;
+    margin: 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    display: block;
+} 
+
+
+.edge button{
+       background-color: rgb(152, 165, 224) ;
+        padding: 10px 25px;
+        border-radius: 20px;
+        margin-top: 0;
+        border: 0; 
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.end{
+    color: white;
+    width: 25%;
+    /* min-height: 50vh; */
+    margin: auto;
+    background-color: #a1c7ff;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+.input4{
+   
+    margin: auto;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+
+.submit{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #75acfc ;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    border-radius: 20px;   
+    margin:10px auto;
+    margin: auto;
+    padding: 10px 80px;
+
+   
+}
+.sent input{
+    padding: 3px 0 ;
+    height: 5vh;
+}
+
+.sent{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 30px auto;
+}
+input{
+    padding: 10px 8px;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    
+}
+
+.input_text{
+
+    margin: auto;
+
+    border-radius: 20px;
+}
+.card{
+    padding:  30px;
+   min-height: 50vh;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.card p{
+    margin: 10px;
+    font-size: 20px;
+}
+.card h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+
+
+  
+
+  li {
+    display: flex;
+  }
+  
+  ul {
+    height: 95%;
+    overflow: auto;
+  }
+  .container{
+      width: 100%;
+  }
+  ul::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+ 
+
+  
+  li,
+  ul {
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .fromMe {
+    justify-content: flex-end;
+  }
+  
+
+  h6 {
+    word-wrap: break-word;
+    padding: 14px 20px ;
+    margin: 5px 3px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background:  #7991e7;
+   font-weight: 400;
+    max-width: 50%;
+    color: white;
+    font-size: 0.8rem;
+    display: inline-block;
+  }
+  
+  .fromYou {
+    background:  #7991e7;
+    color: white;
+  }
+  
+  .box {
+    background-color:  rgb(243, 246, 254) ;
+    border-radius: 20px;
+    height: 40vh;
+  }
+  
+ button {
+    margin: 15px;
+   
+  }
+
+
+
+
+@media screen and (max-width: 900px){
+.header ul{
+    font-size: 0.6rem;
+}
+    .text-demo-1{
+        margin-bottom: 30px;
+    }
+
+ .demo{
+    width: 90% ;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.chat{
+    margin: auto;
+} 
+
+.body{
+    display: block;
+}
+.sent{
+    margin: 20px 0 0 17px;
+}
+ .input4{
+   width: 80%;
+    margin: auto;
+}
+.text-demo-1{
+    margin: 30px 0;
+}
+
+.submit{
+    text-align: center;
+}
+.sent input{
+    height: 3.5vh;
+}
+.container{
+    width: 100%;
+}
+.chat{
+    min-height: 50vh;
+    margin:auto;
+    width: 85%;
+    display: flex; 
+    flex-direction: column;
+}
+
+.edge{
+    width: 80%;
+    min-height: 45vh;
+    margin-top: 20px;
+}
+
+
+.end{
+   width:80%;
+   margin: auto;
+   margin-top: 40px;
+}
+.card{
+    min-height: 40vh;
+}
+
+
+
+}
